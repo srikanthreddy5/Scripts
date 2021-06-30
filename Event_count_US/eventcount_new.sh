@@ -9,7 +9,7 @@ echo "Running script for eventcount"
 SHC_URL=$1
 #domain=$2
 
-splunk_pass=`echo  'c3BsdW5rMTIzCg==' | base64 --decode`
+splunk_pass=`echo  'xxxxxxxxx' | base64 --decode`
 
 if [ -z $SHC_URL ]; then printf "\nERROR: The URL is a required attribute for : Sample url is https://xxxxxxxxxxxx.ca.p2splunk.net:8089/."; exit 1; fi
 
